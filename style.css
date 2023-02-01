@@ -1,17 +1,16 @@
 body {
     background: #bface2;
 }
-.move {
-    position: relative;
-    display: inline-block;
-    top: 200px;
+
+  .move {
+    top: 260px;
     left: 50%;
   }
   .move {
     animation: mymove 0.75s infinite;
     animation-direction: alternate;
     animation-delay: 3s;
-    position: relative;
+    /* position: relative; */
   }
   @keyframes mymove {
     0% {left: 0%; top: 0px}
@@ -21,7 +20,7 @@ body {
     100% {left: 0%; top: 0px}
   }
   h1 {
-    font-family: Kinkee;
+    font-family: iCiel Cadena;
     color: navy;
     display: flex;
     text-align: center;
@@ -31,8 +30,8 @@ body {
   }
   .btn2 {
     display: flex;
-    left: 50%;
-    top: 200px;
+    left: 25%;
+    top: 300px;
   }
 
   .all-wrap {
